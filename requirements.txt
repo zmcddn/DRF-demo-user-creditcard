@@ -1,0 +1,8 @@
+Django==2.1.*
+dj-stripe==2.*
+django-allauth==0.39.*
+django-extensions==2.1.*
+django-configurations==2.*
+django-rest-auth==0.9.*
+djangorestframework==3.8.*
+stripe==2.24.*
