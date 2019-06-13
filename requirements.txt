@@ -4,5 +4,5 @@ django-allauth==0.39.*
 django-extensions==2.1.*
 django-configurations==2.*
 django-rest-auth==0.9.*
-djangorestframework==3.8.*
+djangorestframework>=3.9.1
 stripe==2.24.*
