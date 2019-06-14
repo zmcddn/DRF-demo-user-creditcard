@@ -18,6 +18,10 @@ coverage.xml
 .media/
 /static
 
+# database
+.sql
+.sqlite3
+
 # Environments
 # .env
 .venv
