@@ -8,3 +8,4 @@ djangorestframework>=3.9.1
 stripe==2.24.*
 pytest==4.6.3
 pytest-django==3.5.0
+factory_boy==2.12.*
