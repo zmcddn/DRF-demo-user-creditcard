@@ -6,3 +6,5 @@ django-configurations==2.*
 django-rest-auth==0.9.*
 djangorestframework>=3.9.1
 stripe==2.24.*
+pytest==4.6.3
+pytest-django==3.5.0
