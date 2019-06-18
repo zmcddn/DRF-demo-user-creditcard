@@ -4,6 +4,8 @@ from users.models import User
 
 
 class UserFactory(factory.django.DjangoModelFactory):
+    """Test User factory"""
+
     class Meta:
         model = User
         django_get_or_create = ("id",)
@@ -25,6 +27,7 @@ class UserFactory(factory.django.DjangoModelFactory):
 
 
 class SuperUserFactory(UserFactory):
+    """Test super user factory, inherited from UserFactory"""
 
     is_staff = True
     is_superuser  = True
