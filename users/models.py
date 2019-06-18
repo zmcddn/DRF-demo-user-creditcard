@@ -54,8 +54,8 @@ class User(AbstractUser):
     email = models.EmailField(verbose_name=_("Email Address"), unique=True)
     address = models.TextField(verbose_name=_("Address"), default="", blank=True)
 
-    USERNAME_FIELD = "email"
-    REQUIRED_FIELDS = []
+    USERNAME_FIELD = "email"  # Used for user.get_username()
+    REQUIRED_FIELDS = []  # For superuser creation
     username = None
 
     objects = UserManager()
