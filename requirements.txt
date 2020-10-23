@@ -1,11 +1,11 @@
-Django==2.1.*
+Django==2.2.*
 dj-stripe==2.*
 django-allauth==0.39.*
 django-extensions==2.1.*
 django-configurations==2.*
 django-rest-auth==0.9.*
 djangorestframework>=3.9.1
-stripe==2.24.*
+stripe==2.32.*
 pytest==4.6.3
 pytest-django==3.5.0
 factory_boy==2.12.*
